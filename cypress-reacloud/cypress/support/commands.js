@@ -23,40 +23,44 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import 'cypress-file-upload';
+
 Cypress.Commands.add('login', () => {
-    // Mock the Google OAuth flow 
-    cy.intercept('POST', 'https://accounts.google.com/*', {
+    cy.visit('/');
+
+    // Mock the authentication-related API calls
+    cy.intercept('POST', '/api/auth/checkToken', {
         statusCode: 200,
-        body: {
-            access_token: 'mock-access-token',
-            expires_in: 3600,
-            token_type: 'Bearer'
-        }
-    }).as('googleOAuth');
+        body: { valid: true } // Simulate a successful token validation
+    }).as('checkToken');
 
-    cy.visit('https://reacloud.duckdns.org/');
-    cy.contains('ENTRE ').click();
+    cy.intercept('GET', '/api/users/uploadPhoto', {
+        statusCode: 200,
+        body: { photoUrl: 'https://via.placeholder.com/150' } // Mock user photo response
+    }).as('uploadPhoto');
 
-    // Wait for the Google OAuth request to complete and capture the response
-    cy.wait('@googleOAuth').then((interception) => {
-        // Extract the mock token from the intercepted response
-        const mockToken = interception.response.body.access_token;
+    // Simulate setting the authentication token in localStorage
+    cy.window().then((win) => {
+        const mockToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExNTIyMjU0NzgxMDkzMTA0MTg2MSIsIm5hbWUiOiJNYXJpYSBFZHVhcmRhIENhcm1vbmEiLCJlbWFpbCI6ImVkdWFyZGFjYXJtb25hQGdtYWlsLmNvbSIsImlhdCI6MTc0MTM4OTU2OCwiZXhwIjoxNzQxNjQ4NzY4fQ.eVB-sfQTQ3_QZ66b9DaaRte7-sHWklrA9bGj_NX21vg';
+        const reaCloudSession = JSON.stringify({ jwt_token: mockToken });
 
-        // Simulate setting the reaCloudSession token in localStorage
-        cy.window().then((win) => {
-            const reaCloudSession = JSON.stringify({ jwt_token: mockToken }); 
-            win.localStorage.setItem('reaCloudSession', reaCloudSession); 
-        });
-        // Manually set isLoggedIn to true
+        win.localStorage.setItem('reaCloudSession', reaCloudSession);
         win.localStorage.setItem('isLoggedIn', 'true');
     });
+
+    // Reload the page to apply the authentication state
+    cy.reload();
+
+    // Wait for the intercepted API calls
+    cy.wait('@checkToken');
+    cy.wait('@uploadPhoto');
 
     // Verify that the user is logged in
     cy.window().then((win) => {
         const isLoggedIn = win.localStorage.getItem('isLoggedIn');
-        expect(isLoggedIn).to.equal('true'); 
+        expect(isLoggedIn).to.equal('true');
     });
 
-    // Additional verification 
+    // Ensure the UI updates correctly
     cy.contains('MEU PERFIL').should('exist');
 });
