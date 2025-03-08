@@ -1,0 +1,679 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          11 found (Indexing-of-OERs/1-Verify-OER-Submission-with-Metadata.cy.js, Indexi │
+  │                 ng-of-OERs/2-Verify-OER-Submission-Blocked-for-Unauthenticated-User.cy.js, Ind │
+  │                 exing-of-OERs/3-Edit-a-posted-OER.cy.js, Indexing-of-OERs/4-Delete-a-posted-OE │
+  │                 R.cy.js, Indexing-of-OE...)                                                    │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Indexing-of-OERs/1-Verify-OER-Submission-with-Metadata.cy.js                   (1 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:14.360Z",
+    "end": "2025-03-08T18:40:21.833Z",
+    "duration": 7473
+  },
+  "tests": [
+    {
+      "title": "should submit OER through the Home Page",
+      "fullTitle": "OER Submission with Metadata should submit OER through the Home Page",
+      "duration": 7401,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should submit OER through the Home Page",
+      "fullTitle": "OER Submission with Metadata should submit OER through the Home Page",
+      "duration": 7401,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     7 seconds                                                                        │
+  │ Spec Ran:     Indexing-of-OERs/1-Verify-OER-Submission-with-Metadata.cy.js                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Indexing-of-OERs/2-Verify-OER-Submission-Blocked-for-Unauthenticated           (2 of 11)
+            -User.cy.js                                                                             
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:22.841Z",
+    "end": "2025-03-08T18:40:29.233Z",
+    "duration": 6392
+  },
+  "tests": [
+    {
+      "title": "should not allow unauthenticated user to submit OER",
+      "fullTitle": "Verify OER Submission Blocked for Unauthenticated User should not allow unauthenticated user to submit OER",
+      "duration": 6356,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should not allow unauthenticated user to submit OER",
+      "fullTitle": "Verify OER Submission Blocked for Unauthenticated User should not allow unauthenticated user to submit OER",
+      "duration": 6356,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     6 seconds                                                                        │
+  │ Spec Ran:     Indexing-of-OERs/2-Verify-OER-Submission-Blocked-for-Unauthenticated-User.cy.js  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Indexing-of-OERs/3-Edit-a-posted-OER.cy.js                                     (3 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:30.253Z",
+    "end": "2025-03-08T18:40:35.964Z",
+    "duration": 5711
+  },
+  "tests": [
+    {
+      "title": "should allow the user to edit a posted OER",
+      "fullTitle": "Edit a posted OER should allow the user to edit a posted OER",
+      "duration": 5637,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should allow the user to edit a posted OER",
+      "fullTitle": "Edit a posted OER should allow the user to edit a posted OER",
+      "duration": 5637,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     Indexing-of-OERs/3-Edit-a-posted-OER.cy.js                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Indexing-of-OERs/4-Delete-a-posted-OER.cy.js                                   (4 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:37.014Z",
+    "end": "2025-03-08T18:40:39.451Z",
+    "duration": 2437
+  },
+  "tests": [
+    {
+      "title": "should allow the user to edit a posted OER",
+      "fullTitle": "Edit a posted OER should allow the user to edit a posted OER",
+      "duration": 2381,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should allow the user to edit a posted OER",
+      "fullTitle": "Edit a posted OER should allow the user to edit a posted OER",
+      "duration": 2381,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 seconds                                                                        │
+  │ Spec Ran:     Indexing-of-OERs/4-Delete-a-posted-OER.cy.js                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Indexing-of-OERs/5-Verify-Required-Fields-in-OER-Submission-Form.cy.           (5 of 11)
+            js                                                                                      
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:40.483Z",
+    "end": "2025-03-08T18:40:43.105Z",
+    "duration": 2622
+  },
+  "tests": [
+    {
+      "title": "should enforce required fields before allowing submission",
+      "fullTitle": "5 - Verify Required Fields in OER Submission Form should enforce required fields before allowing submission",
+      "duration": 2587,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should enforce required fields before allowing submission",
+      "fullTitle": "5 - Verify Required Fields in OER Submission Form should enforce required fields before allowing submission",
+      "duration": 2587,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 seconds                                                                        │
+  │ Spec Ran:     Indexing-of-OERs/5-Verify-Required-Fields-in-OER-Submission-Form.cy.js           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Searching-and-Filtering-OERs/1-Search-OER-by-Title.cy.js                       (6 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:44.096Z",
+    "end": "2025-03-08T18:40:45.421Z",
+    "duration": 1325
+  },
+  "tests": [
+    {
+      "title": "Verify that users can search for OERs by entering their title in the search bar",
+      "fullTitle": "Search OER by Title Verify that users can search for OERs by entering their title in the search bar",
+      "duration": 1292,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can search for OERs by entering their title in the search bar",
+      "fullTitle": "Search OER by Title Verify that users can search for OERs by entering their title in the search bar",
+      "duration": 1292,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     Searching-and-Filtering-OERs/1-Search-OER-by-Title.cy.js                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Searching-and-Filtering-OERs/2-Search-OER-by-Knowledge-Area.cy.js              (7 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:46.477Z",
+    "end": "2025-03-08T18:40:57.805Z",
+    "duration": 11328
+  },
+  "tests": [
+    {
+      "title": "Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "duration": 11276,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "duration": 11276,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     11 seconds                                                                       │
+  │ Spec Ran:     Searching-and-Filtering-OERs/2-Search-OER-by-Knowledge-Area.cy.js                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Searching-and-Filtering-OERs/3-Search-OER-by-Format.cy.js                      (8 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:40:58.792Z",
+    "end": "2025-03-08T18:41:10.162Z",
+    "duration": 11370
+  },
+  "tests": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Format Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 11321,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Format Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 11321,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     11 seconds                                                                       │
+  │ Spec Ran:     Searching-and-Filtering-OERs/3-Search-OER-by-Format.cy.js                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Searching-and-Filtering-OERs/4-Combination-of-Search-and-Filters.cy.           (9 of 11)
+            js                                                                                      
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:41:11.193Z",
+    "end": "2025-03-08T18:41:12.794Z",
+    "duration": 1601
+  },
+  "tests": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 1560,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 1560,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     Searching-and-Filtering-OERs/4-Combination-of-Search-and-Filters.cy.js           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Searching-and-Filtering-OERs/5-No-Filter-or-Search.cy.js                      (10 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-08T18:41:13.781Z",
+    "end": "2025-03-08T18:41:14.703Z",
+    "duration": 922
+  },
+  "tests": [
+    {
+      "title": "Verify that users can see all listed OERs when no filter is applied.",
+      "fullTitle": "No Filter or Search Verify that users can see all listed OERs when no filter is applied.",
+      "duration": 820,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can see all listed OERs when no filter is applied.",
+      "fullTitle": "No Filter or Search Verify that users can see all listed OERs when no filter is applied.",
+      "duration": 820,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     Searching-and-Filtering-OERs/5-No-Filter-or-Search.cy.js                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js                   (11 of 11)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-08T18:41:15.725Z",
+    "end": "2025-03-08T18:41:20.808Z",
+    "duration": 5083
+  },
+  "tests": [
+    {
+      "title": "Verify the system’s behavior when a search query returns no results.",
+      "fullTitle": "Search with No Results Verify the system’s behavior when a search query returns no results.",
+      "duration": 5067,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js:10:49)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "relativeFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "line": 10,
+            "column": 49,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 10,
+          "column": 50,
+          "originalFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "frame": "   8 |         cy.get('div[class*=\"contentContainer\"]').should('not.exist');\n   9 |\n> 10 |         cy.contains('Nenhum recurso encontrado').should('exist').should('be.visible');\n     |                                                  ^\n  11 |     });\n  12 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify the system’s behavior when a search query returns no results.",
+      "fullTitle": "Search with No Results Verify the system’s behavior when a search query returns no results.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js:10:49)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "relativeFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "line": 10,
+            "column": 49,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 10,
+          "column": 50,
+          "originalFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "frame": "   8 |         cy.get('div[class*=\"contentContainer\"]').should('not.exist');\n   9 |\n> 10 |         cy.contains('Nenhum recurso encontrado').should('exist').should('be.visible');\n     |                                                  ^\n  11 |     });\n  12 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/Search     (1280x720)
+     ing-and-Filtering-OERs/6-Search-with-No-Results.cy.js/Search with No Results --                
+     Verify the system’s behavior when a search query returns no results (failed).png               
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  Indexing-of-OERs/1-Verify-OER-Submi      00:07        1        1        -        -        - │
+  │    ssion-with-Metadata.cy.js                                                                   │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Indexing-of-OERs/2-Verify-OER-Submi      00:06        1        1        -        -        - │
+  │    ssion-Blocked-for-Unauthenticated-U                                                         │
+  │    ser.cy.js                                                                                   │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Indexing-of-OERs/3-Edit-a-posted-OE      00:05        1        1        -        -        - │
+  │    R.cy.js                                                                                     │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Indexing-of-OERs/4-Delete-a-posted-      00:02        1        1        -        -        - │
+  │    OER.cy.js                                                                                   │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Indexing-of-OERs/5-Verify-Required-      00:02        1        1        -        -        - │
+  │    Fields-in-OER-Submission-Form.cy.js                                                         │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Searching-and-Filtering-OERs/1-Sear      00:01        1        1        -        -        - │
+  │    ch-OER-by-Title.cy.js                                                                       │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Searching-and-Filtering-OERs/2-Sear      00:11        1        1        -        -        - │
+  │    ch-OER-by-Knowledge-Area.cy.js                                                              │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Searching-and-Filtering-OERs/3-Sear      00:11        1        1        -        -        - │
+  │    ch-OER-by-Format.cy.js                                                                      │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Searching-and-Filtering-OERs/4-Comb      00:01        1        1        -        -        - │
+  │    ination-of-Search-and-Filters.cy.js                                                         │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Searching-and-Filtering-OERs/5-No-F      924ms        1        1        -        -        - │
+  │    ilter-or-Search.cy.js                                                                       │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  Searching-and-Filtering-OERs/6-Sear      00:05        1        -        1        -        - │
+  │    ch-with-No-Results.cy.js                                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 11 failed (9%)                      00:56       11       10        1        -        -  
+

@@ -3,7 +3,7 @@ describe('Edit a posted OER', () => {
       cy.login(); // Ensure the user is logged in
     });
   
-    it('should allow the user to edit a posted OER', () => {
+    it('users can search for OERs by entering their title in the search bar.', () => {
       cy.visit('/');
       cy.contains('ADICIONAR RECURSO').click();
       cy.contains('EDITAR RECURSO').click();
