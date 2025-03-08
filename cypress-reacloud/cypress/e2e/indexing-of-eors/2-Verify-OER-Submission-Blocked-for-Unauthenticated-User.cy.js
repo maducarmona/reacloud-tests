@@ -25,15 +25,15 @@ describe('Verify OER Submission Blocked for Unauthenticated User', () => {
       };
   
       // Fill in the form fields
-      cy.get('input[name="title"]').type(oerMetadata.title); // Title
-      cy.get('input[name="contributor"]').type(oerMetadata.contributor); // Contributor
+      cy.get('input[name="title"]').type(oerMetadata.title); 
+      cy.get('input[name="contributor"]').type(oerMetadata.contributor); 
       cy.get('#5').click(); // O ID PARA O TIPO ESTÁ EM NUMERO
       cy.contains(oerMetadata.type).click(); // Select the Type
-      cy.get('input[name="source"]').type(oerMetadata.source); // Source
+      cy.get('input[name="source"]').type(oerMetadata.source); 
       cy.get('#1').click(); // O ID PARA O público alvo ESTÁ EM NUMERO
       cy.contains(oerMetadata.audience).click(); // Select the Audience
-      cy.get('input[name="creator"]').type(oerMetadata.creator); // Creator
-      cy.get('input[name="publisher"]').type(oerMetadata.publisher); // Publisher
+      cy.get('input[name="creator"]').type(oerMetadata.creator); 
+      cy.get('input[name="publisher"]').type(oerMetadata.publisher); 
   
       // Upload Image
       cy.fixture(oerMetadata.image, 'base64').then((fileContent) => {
@@ -55,10 +55,10 @@ describe('Verify OER Submission Blocked for Unauthenticated User', () => {
       cy.contains(oerMetadata.subject).click(); // Select the Subject
       cy.get('#3').click(); // O ID PARA A LICENSA ESTÁ EM NUMERO
       cy.contains(oerMetadata.rights).click(); // Select the Rights
-      cy.get('input[name="coverage"]').type(oerMetadata.coverage); // Coverage
-      cy.get('input[name="date"]').type(oerMetadata.date); // Date
-      cy.get('input[name="description"]').type(oerMetadata.description); // Description
-      cy.get('textarea[name="instructionalMethod"]').type(oerMetadata.instructionalMethod); // Instructional Method
+      cy.get('input[name="coverage"]').type(oerMetadata.coverage); 
+      cy.get('input[name="date"]').type(oerMetadata.date); 
+      cy.get('input[name="description"]').type(oerMetadata.description); 
+      cy.get('textarea[name="instructionalMethod"]').type(oerMetadata.instructionalMethod); 
   
       // Submit the OER
       cy.get('button#submitButton').click();
