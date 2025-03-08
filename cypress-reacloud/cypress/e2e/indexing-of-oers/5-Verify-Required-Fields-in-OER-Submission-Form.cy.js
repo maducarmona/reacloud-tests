@@ -17,9 +17,9 @@ describe('5 - Verify Required Fields in OER Submission Form', () => {
         cy.get('input[name="description"]').parent().find('p').should('be.visible').and('contain', 'Este campo é obrigatório');
 
         // Step 7: Fill in some, but not all required fields, and try submitting again
-        cy.get('input[name="title"]').type('Sample OER Title');
-        cy.get('input[name="source"]').type('https://example.com');
-        cy.get('input[name="date"]').type('2025-02-05');
+        cy.get('input[name="title"]').type('Required Test OER Title');
+        cy.get('input[name="source"]').type('https://hello.com');
+        cy.get('input[name="date"]').type('2025-01-15');
         cy.get('input[name="description"]').type('This is a sample OER description.');
         cy.get('button#submitButton').click();
 
