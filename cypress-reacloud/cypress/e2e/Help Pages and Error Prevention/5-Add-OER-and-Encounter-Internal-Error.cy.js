@@ -29,10 +29,18 @@ describe("5 - Add OER and Encounter Internal Error", () => {
         });
       });
   
+      // Intercept the API request and force a 500 error
+      cy.intercept('POST', '/api/recurso', {
+        statusCode: 500, // Simulating an internal server error
+        body: { message: "Internal Server Error" },
+      }).as('createRecursoRequest');
+
       cy.get('button#submitButton').click();
+
+      cy.wait('@createRecursoRequest');
       
-      cy.contains('Erro ao criar o recurso.').should('be.visible');
-      cy.contains("Por favor, verifique sua conexão com a internet e tente novamente.").should('be.visible');
+      cy.contains('Erro interno.').should('be.visible');
+      cy.contains("Ocorreu um erro interno, por favor tente novamente.").should('be.visible');
     });
   });
   
