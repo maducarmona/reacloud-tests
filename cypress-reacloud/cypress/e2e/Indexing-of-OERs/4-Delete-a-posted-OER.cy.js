@@ -1,9 +1,9 @@
-describe('Edit a posted OER', () => {
+describe('4 - Delete a posted OER', () => {
     beforeEach(() => {
       cy.login(); // Ensure the user is logged in
     });
   
-    it('users can search for OERs by entering their title in the search bar.', () => {
+    it('users can deleted posted OERs.', () => {
       cy.visit('/');
       cy.contains('ADICIONAR RECURSO').click();
       cy.contains('EDITAR RECURSO').click();

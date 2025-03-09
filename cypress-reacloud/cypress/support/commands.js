@@ -37,8 +37,8 @@ Cypress.Commands.add('login', () => {
 
     // Simulate setting the authentication token in localStorage
     cy.window().then((win) => {
-        // This has to be a real token for the API to accept it
-        const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExNTIyMjU0NzgxMDkzMTA0MTg2MSIsIm5hbWUiOiJNYXJpYSBFZHVhcmRhIENhcm1vbmEiLCJlbWFpbCI6ImVkdWFyZGFjYXJtb25hQGdtYWlsLmNvbSIsImlhdCI6MTc0MTUzODI2OCwiZXhwIjoxNzQxNzk3NDY4fQ.foyclAToT964WCuzJK2slWh1x1u4Eu-n1K1rdyfTRHk';
+        // This has to be a real token for the API to accept it when creating OERs
+        const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExNTIyMjU0NzgxMDkzMTA0MTg2MSIsIm5hbWUiOiJNYXJpYSBFZHVhcmRhIENhcm1vbmEiLCJlbWFpbCI6ImVkdWFyZGFjYXJtb25hQGdtYWlsLmNvbSIsImlhdCI6MTc0MTU0ODEyMywiZXhwIjoxNzQxODA3MzIzfQ.5oqVrKsXoCb29YawwkzcPq8E6fwKSxUxxj6xAus3tJ8';
         const reaCloudSession = JSON.stringify({ jwt_token: token });
 
         
