@@ -1,0 +1,289 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          5 found (1-User-can-Like-an-OER.cy.js, 2-User-can-remove-a-Like-from-an-OER.cy │
+  │                 .js, 3-User-can-add-a-comment-on-an-OER.cy.js, 4-User-can-remove-a-comment-fro │
+  │                 m-an-OER.cy.js, 5-User-can-report-an-issue-from-an-OER.cy.js)                  │
+  │ Searched:       cypress/e2e/Feedback and Evaluation System/**/*.cy.js                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  1-User-can-Like-an-OER.cy.js                                                    (1 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:54:52.726Z",
+    "end": "2025-03-10T00:54:58.154Z",
+    "duration": 5428
+  },
+  "tests": [
+    {
+      "title": "users can add a \"like\" to an OER",
+      "fullTitle": "1 - User can Like an OER users can add a \"like\" to an OER",
+      "duration": 5391,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "users can add a \"like\" to an OER",
+      "fullTitle": "1 - User can Like an OER users can add a \"like\" to an OER",
+      "duration": 5391,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     1-User-can-Like-an-OER.cy.js                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  2-User-can-remove-a-Like-from-an-OER.cy.js                                      (2 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:54:59.129Z",
+    "end": "2025-03-10T00:55:04.305Z",
+    "duration": 5176
+  },
+  "tests": [
+    {
+      "title": "can remove a previously added \"like\" to an resource",
+      "fullTitle": "2 - User can remove a Like from an OER can remove a previously added \"like\" to an resource",
+      "duration": 5136,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "can remove a previously added \"like\" to an resource",
+      "fullTitle": "2 - User can remove a Like from an OER can remove a previously added \"like\" to an resource",
+      "duration": 5136,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     2-User-can-remove-a-Like-from-an-OER.cy.js                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  3-User-can-add-a-comment-on-an-OER.cy.js                                        (3 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:55:05.286Z",
+    "end": "2025-03-10T00:55:09.567Z",
+    "duration": 4281
+  },
+  "tests": [
+    {
+      "title": "Verify that users can add a textual comment to a resource.",
+      "fullTitle": "3 - User can add a comment on an OER Verify that users can add a textual comment to a resource.",
+      "duration": 4243,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can add a textual comment to a resource.",
+      "fullTitle": "3 - User can add a comment on an OER Verify that users can add a textual comment to a resource.",
+      "duration": 4243,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     3-User-can-add-a-comment-on-an-OER.cy.js                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  4-User-can-remove-a-comment-from-an-OER.cy.js                                   (4 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:55:10.540Z",
+    "end": "2025-03-10T00:55:14.483Z",
+    "duration": 3943
+  },
+  "tests": [
+    {
+      "title": "Verify that users can remove a previously addded comment on a resource.",
+      "fullTitle": "4 - User can remove a comment from an OER Verify that users can remove a previously addded comment on a resource.",
+      "duration": 3906,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can remove a previously addded comment on a resource.",
+      "fullTitle": "4 - User can remove a comment from an OER Verify that users can remove a previously addded comment on a resource.",
+      "duration": 3906,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     4-User-can-remove-a-comment-from-an-OER.cy.js                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  5-User-can-report-an-issue-from-an-OER.cy.js                                    (5 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:55:15.467Z",
+    "end": "2025-03-10T00:55:23.116Z",
+    "duration": 7649
+  },
+  "tests": [
+    {
+      "title": "Verify that users can report an issue about an OER..",
+      "fullTitle": "5 - User can report an issue from an OER Verify that users can report an issue about an OER..",
+      "duration": 7609,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can report an issue about an OER..",
+      "fullTitle": "5 - User can report an issue from an OER Verify that users can report an issue about an OER..",
+      "duration": 7609,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     7 seconds                                                                        │
+  │ Spec Ran:     5-User-can-report-an-issue-from-an-OER.cy.js                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  1-User-can-Like-an-OER.cy.js             00:05        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  2-User-can-remove-a-Like-from-an-OE      00:05        1        1        -        -        - │
+  │    R.cy.js                                                                                     │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  3-User-can-add-a-comment-on-an-OER.      00:04        1        1        -        -        - │
+  │    cy.js                                                                                       │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  4-User-can-remove-a-comment-from-an      00:03        1        1        -        -        - │
+  │    -OER.cy.js                                                                                  │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  5-User-can-report-an-issue-from-an-      00:07        1        1        -        -        - │
+  │    OER.cy.js                                                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:26        5        5        -        -        -  
+

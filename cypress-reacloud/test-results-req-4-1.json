@@ -1,0 +1,76 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          1 found (1-Get-Reminder-About-Extension.cy.js)                                 │
+  │ Searched:       cypress/e2e/Resource Collection Plugin/1-Get-Reminder-About-Extension.cy.js    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  1-Get-Reminder-About-Extension.cy.js                                            (1 of 1)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T01:00:58.847Z",
+    "end": "2025-03-10T01:00:59.889Z",
+    "duration": 1042
+  },
+  "tests": [
+    {
+      "title": "Verify that users without the extension installed receive a message informing them about it.",
+      "fullTitle": "1 - Get a Reminder About the Extension on the Site  Verify that users without the extension installed receive a message informing them about it.",
+      "duration": 1009,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users without the extension installed receive a message informing them about it.",
+      "fullTitle": "1 - Get a Reminder About the Extension on the Site  Verify that users without the extension installed receive a message informing them about it.",
+      "duration": 1009,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     1-Get-Reminder-About-Extension.cy.js                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  1-Get-Reminder-About-Extension.cy.j      00:01        1        1        -        -        - │
+  │    s                                                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:01        1        1        -        -        -  
+

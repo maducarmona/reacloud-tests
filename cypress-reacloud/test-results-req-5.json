@@ -1,0 +1,1146 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          14 found (01-Help-button.cy.js, 02-Help-Page-Sections.cy.js, 03-Add-OER-Withou │
+  │                 t-an-Account.cy.js, 04-Add-OER-With-Account.cy.js, 05-Add-OER-and-Encounter-In │
+  │                 ternal-Error.cy.js, 06-Edit-a-Posted-OER.cy.js, 07-Delete-a-Posted-OER.cy.js,  │
+  │                 08-Add-a-Like-to-an-OER...)                                                    │
+  │ Searched:       cypress/e2e/Help Pages and Error Prevention/**/*.cy.js                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  01-Help-button.cy.js                                                           (1 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:08:40.124Z",
+    "end": "2025-03-10T02:08:41.048Z",
+    "duration": 924
+  },
+  "tests": [
+    {
+      "title": "Verify that users can click the help button to access the help page",
+      "fullTitle": "1- Help Button Verify that users can click the help button to access the help page",
+      "duration": 894,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can click the help button to access the help page",
+      "fullTitle": "1- Help Button Verify that users can click the help button to access the help page",
+      "duration": 894,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     01-Help-button.cy.js                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  02-Help-Page-Sections.cy.js                                                    (2 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T02:08:42.007Z",
+    "end": "2025-03-10T02:08:46.976Z",
+    "duration": 4969
+  },
+  "tests": [
+    {
+      "title": "Verify that users can navigate between the three sections of the help page.",
+      "fullTitle": "2 - Help Page Sections Verify that users can navigate between the three sections of the help page.",
+      "duration": 4957,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Guias Passo-a-Passo' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Guias Passo-a-Passo' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js:13:11)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Guias Passo-a-Passo' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/02-Help-Page-Sections.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+            "line": 13,
+            "column": 11,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 13,
+          "column": 12,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+          "frame": "  11 |         cy.contains('FAQ');\n  12 |         cy.contains('Problemas Comuns');\n> 13 |         cy.contains('Guias Passo-a-Passo');\n     |            ^\n  14 |     });\n  15 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify that users can navigate between the three sections of the help page.",
+      "fullTitle": "2 - Help Page Sections Verify that users can navigate between the three sections of the help page.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Guias Passo-a-Passo' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Guias Passo-a-Passo' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js:13:11)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Guias Passo-a-Passo' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/02-Help-Page-Sections.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+            "line": 13,
+            "column": 11,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 13,
+          "column": 12,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/02-Help-Page-Sections.cy.js",
+          "frame": "  11 |         cy.contains('FAQ');\n  12 |         cy.contains('Problemas Comuns');\n> 13 |         cy.contains('Guias Passo-a-Passo');\n     |            ^\n  14 |     });\n  15 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     02-Help-Page-Sections.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/02-Hel     (1280x720)
+     p-Page-Sections.cy.js/2 - Help Page Sections -- Verify that users can navigate b               
+     etween the three sections of the help page (failed).png                                        
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  03-Add-OER-Without-an-Account.cy.js                                            (3 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:08:47.962Z",
+    "end": "2025-03-10T02:08:50.979Z",
+    "duration": 3017
+  },
+  "tests": [
+    {
+      "title": "Verify that users without an account cannot add an OER and receive a prompt to log in.",
+      "fullTitle": "3 - Add OER Without an Account Verify that users without an account cannot add an OER and receive a prompt to log in.",
+      "duration": 2980,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users without an account cannot add an OER and receive a prompt to log in.",
+      "fullTitle": "3 - Add OER Without an Account Verify that users without an account cannot add an OER and receive a prompt to log in.",
+      "duration": 2980,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     03-Add-OER-Without-an-Account.cy.js                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  04-Add-OER-With-Account.cy.js                                                  (4 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:08:51.951Z",
+    "end": "2025-03-10T02:08:55.938Z",
+    "duration": 3987
+  },
+  "tests": [
+    {
+      "title": "Verify that users with an account can successfully add an OER.",
+      "fullTitle": "4 - Add OER With an Account Verify that users with an account can successfully add an OER.",
+      "duration": 3954,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users with an account can successfully add an OER.",
+      "fullTitle": "4 - Add OER With an Account Verify that users with an account can successfully add an OER.",
+      "duration": 3954,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     04-Add-OER-With-Account.cy.js                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  05-Add-OER-and-Encounter-Internal-Error.cy.js                                  (5 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:08:56.939Z",
+    "end": "2025-03-10T02:09:00.849Z",
+    "duration": 3910
+  },
+  "tests": [
+    {
+      "title": "Verify that an appropriate message is displayed when there is an internal server error during OER addition.",
+      "fullTitle": "5 - Add OER and Encounter Internal Error Verify that an appropriate message is displayed when there is an internal server error during OER addition.",
+      "duration": 3875,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that an appropriate message is displayed when there is an internal server error during OER addition.",
+      "fullTitle": "5 - Add OER and Encounter Internal Error Verify that an appropriate message is displayed when there is an internal server error during OER addition.",
+      "duration": 3875,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     05-Add-OER-and-Encounter-Internal-Error.cy.js                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  06-Edit-a-Posted-OER.cy.js                                                     (6 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:09:01.809Z",
+    "end": "2025-03-10T02:09:06.490Z",
+    "duration": 4681
+  },
+  "tests": [
+    {
+      "title": "Verify generic error message when editing OER",
+      "fullTitle": "6 - Edit a Posted OER Verify generic error message when editing OER",
+      "duration": 2252,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify message when editing OER successfully",
+      "fullTitle": "6 - Edit a Posted OER Verify message when editing OER successfully",
+      "duration": 2362,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify generic error message when editing OER",
+      "fullTitle": "6 - Edit a Posted OER Verify generic error message when editing OER",
+      "duration": 2252,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify message when editing OER successfully",
+      "fullTitle": "6 - Edit a Posted OER Verify message when editing OER successfully",
+      "duration": 2362,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     06-Edit-a-Posted-OER.cy.js                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  07-Delete-a-Posted-OER.cy.js                                                   (7 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T02:09:07.463Z",
+    "end": "2025-03-10T02:09:13.664Z",
+    "duration": 6201
+  },
+  "tests": [
+    {
+      "title": "Verify that users can delete an OER they posted.",
+      "fullTitle": "7 - Delete a Posted OER Verify that users can delete an OER they posted.",
+      "duration": 6185,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Recurso removido com sucesso' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Recurso removido com sucesso' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js:20:50)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Recurso removido com sucesso' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/07-Delete-a-Posted-OER.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+            "line": 20,
+            "column": 50,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 20,
+          "column": 51,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+          "frame": "  18 |       cy.contains('h1', 'Recurso Teste Editado').should('not.exist');\n  19 |\n> 20 |       cy.contains('Recurso removido com sucesso').should('be.visible');\n     |                                                   ^\n  21 |     });  \n  22 |       \n  23 |   });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify that users can delete an OER they posted.",
+      "fullTitle": "7 - Delete a Posted OER Verify that users can delete an OER they posted.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Recurso removido com sucesso' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Recurso removido com sucesso' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js:20:50)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Recurso removido com sucesso' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/07-Delete-a-Posted-OER.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+            "line": 20,
+            "column": 50,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 20,
+          "column": 51,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/07-Delete-a-Posted-OER.cy.js",
+          "frame": "  18 |       cy.contains('h1', 'Recurso Teste Editado').should('not.exist');\n  19 |\n> 20 |       cy.contains('Recurso removido com sucesso').should('be.visible');\n     |                                                   ^\n  21 |     });  \n  22 |       \n  23 |   });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     6 seconds                                                                        │
+  │ Spec Ran:     07-Delete-a-Posted-OER.cy.js                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/07-Del     (1280x720)
+     ete-a-Posted-OER.cy.js/7 - Delete a Posted OER -- Verify that users can delete a               
+     n OER they posted (failed).png                                                                 
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  08-Add-a-Like-to-an-OER-Error-Notification.cy.js                               (8 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T02:09:14.647Z",
+    "end": "2025-03-10T02:09:22.451Z",
+    "duration": 7804
+  },
+  "tests": [
+    {
+      "title": "Verify that users get notified of an error when the \"like\" does not work.",
+      "fullTitle": "8 - Add a \"Like\" to an OER Error Notification Verify that users get notified of an error when the \"like\" does not work.",
+      "duration": 7787,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Falha ao tentar avaliar o recurso.' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Falha ao tentar avaliar o recurso.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js:29:54)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Falha ao tentar avaliar o recurso.' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "line": 29,
+            "column": 54,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 29,
+          "column": 55,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+          "frame": "  27 |     cy.wait(\"@likeRequest\");\n  28 |\n> 29 |     cy.contains(\"Falha ao tentar avaliar o recurso.\").should(\"be.visible\");\n     |                                                       ^\n  30 |     cy.contains(\"Verifique sua conexão e tente mais tarde.\").should(\n  31 |       \"be.visible\"\n  32 |     );",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify that users get notified of an error when the \"like\" does not work.",
+      "fullTitle": "8 - Add a \"Like\" to an OER Error Notification Verify that users get notified of an error when the \"like\" does not work.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Falha ao tentar avaliar o recurso.' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Falha ao tentar avaliar o recurso.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js:29:54)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Falha ao tentar avaliar o recurso.' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+            "line": 29,
+            "column": 54,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 29,
+          "column": 55,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/08-Add-a-Like-to-an-OER-Error-Notification.cy.js",
+          "frame": "  27 |     cy.wait(\"@likeRequest\");\n  28 |\n> 29 |     cy.contains(\"Falha ao tentar avaliar o recurso.\").should(\"be.visible\");\n     |                                                       ^\n  30 |     cy.contains(\"Verifique sua conexão e tente mais tarde.\").should(\n  31 |       \"be.visible\"\n  32 |     );",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     7 seconds                                                                        │
+  │ Spec Ran:     08-Add-a-Like-to-an-OER-Error-Notification.cy.js                                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/08-Add     (1280x720)
+     -a-Like-to-an-OER-Error-Notification.cy.js/8 - Add a Like to an OER Error Notifi               
+     cation -- Verify that users get notified of an error when the like does not work               
+      (failed).png                                                                                  
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  09-Add-Like-OER-Without-Account.cy.js                                          (9 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:09:23.426Z",
+    "end": "2025-03-10T02:09:27.432Z",
+    "duration": 4006
+  },
+  "tests": [
+    {
+      "title": "Verify that users cannot like an OER without logging in.",
+      "fullTitle": "9 - Add a \"Like\" to an OER Without an Account Verify that users cannot like an OER without logging in.",
+      "duration": 3972,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users cannot like an OER without logging in.",
+      "fullTitle": "9 - Add a \"Like\" to an OER Without an Account Verify that users cannot like an OER without logging in.",
+      "duration": 3972,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     09-Add-Like-OER-Without-Account.cy.js                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  10-Add-Comment-OER-Error-Notification.cy.js                                   (10 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:09:28.426Z",
+    "end": "2025-03-10T02:09:33.167Z",
+    "duration": 4741
+  },
+  "tests": [
+    {
+      "title": "Verify that users receive a notification when they try to comment and an error occurs. ",
+      "fullTitle": "10 - Add a Comment to an OER Error Notification Verify that users receive a notification when they try to comment and an error occurs. ",
+      "duration": 4706,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users receive a notification when they try to comment and an error occurs. ",
+      "fullTitle": "10 - Add a Comment to an OER Error Notification Verify that users receive a notification when they try to comment and an error occurs. ",
+      "duration": 4706,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     10-Add-Comment-OER-Error-Notification.cy.js                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  11-Remove-Comment-OER.cy.js                                                   (11 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T02:09:34.158Z",
+    "end": "2025-03-10T02:09:42.595Z",
+    "duration": 8437
+  },
+  "tests": [
+    {
+      "title": "Verify that users can remove a comment they posted.",
+      "fullTitle": "11 - Remove a Comment to an OER Verify that users can remove a comment they posted.",
+      "duration": 8423,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Comentário removido com sucesso.' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Comentário removido com sucesso.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js:36:56)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Comentário removido com sucesso.' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/11-Remove-Comment-OER.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+            "line": 36,
+            "column": 56,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 36,
+          "column": 57,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+          "frame": "  34 |         });\n  35 |\n> 36 |         cy.contains('Comentário removido com sucesso.').should('be.visible');\n     |                                                         ^\n  37 |\n  38 |         cy.get('div[class*=\"commentList\"]').should('not.contain', 'This is a test comment!');\n  39 |",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify that users can remove a comment they posted.",
+      "fullTitle": "11 - Remove a Comment to an OER Verify that users can remove a comment they posted.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Comentário removido com sucesso.' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Comentário removido com sucesso.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js:36:56)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Comentário removido com sucesso.' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/11-Remove-Comment-OER.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+            "line": 36,
+            "column": 56,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 36,
+          "column": 57,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/11-Remove-Comment-OER.cy.js",
+          "frame": "  34 |         });\n  35 |\n> 36 |         cy.contains('Comentário removido com sucesso.').should('be.visible');\n     |                                                         ^\n  37 |\n  38 |         cy.get('div[class*=\"commentList\"]').should('not.contain', 'This is a test comment!');\n  39 |",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     8 seconds                                                                        │
+  │ Spec Ran:     11-Remove-Comment-OER.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/11-Rem     (1280x720)
+     ove-Comment-OER.cy.js/11 - Remove a Comment to an OER -- Verify that users can r               
+     emove a comment they posted (failed).png                                                       
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  12-Send-Issue-OER.cy.js                                                       (12 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:09:43.590Z",
+    "end": "2025-03-10T02:09:58.825Z",
+    "duration": 15235
+  },
+  "tests": [
+    {
+      "title": "Verify that users can report an issue about an OER - Success Notification",
+      "fullTitle": "12 - Send an Issue About an OER Verify that users can report an issue about an OER - Success Notification",
+      "duration": 7593,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify that users can report an issue about an OER - Error Notification",
+      "fullTitle": "12 - Send an Issue About an OER Verify that users can report an issue about an OER - Error Notification",
+      "duration": 4430,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify that users can report an issue about an OER - Login Notification",
+      "fullTitle": "12 - Send an Issue About an OER Verify that users can report an issue about an OER - Login Notification",
+      "duration": 3088,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can report an issue about an OER - Success Notification",
+      "fullTitle": "12 - Send an Issue About an OER Verify that users can report an issue about an OER - Success Notification",
+      "duration": 7593,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify that users can report an issue about an OER - Error Notification",
+      "fullTitle": "12 - Send an Issue About an OER Verify that users can report an issue about an OER - Error Notification",
+      "duration": 4430,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify that users can report an issue about an OER - Login Notification",
+      "fullTitle": "12 - Send an Issue About an OER Verify that users can report an issue about an OER - Login Notification",
+      "duration": 3088,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     15 seconds                                                                       │
+  │ Spec Ran:     12-Send-Issue-OER.cy.js                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  13-Make-Change-on-Your-Profile.cy.js                                          (13 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:09:59.822Z",
+    "end": "2025-03-10T02:10:06.892Z",
+    "duration": 7070
+  },
+  "tests": [
+    {
+      "title": "Verify that users can update their profile information. - Success Notification",
+      "fullTitle": "13 - Make a Change on Your Profile Verify that users can update their profile information. - Success Notification",
+      "duration": 3518,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify that users can update their profile information. - Error Notification",
+      "fullTitle": "13 - Make a Change on Your Profile Verify that users can update their profile information. - Error Notification",
+      "duration": 3485,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can update their profile information. - Success Notification",
+      "fullTitle": "13 - Make a Change on Your Profile Verify that users can update their profile information. - Success Notification",
+      "duration": 3518,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Verify that users can update their profile information. - Error Notification",
+      "fullTitle": "13 - Make a Change on Your Profile Verify that users can update their profile information. - Error Notification",
+      "duration": 3485,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     7 seconds                                                                        │
+  │ Spec Ran:     13-Make-Change-on-Your-Profile.cy.js                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  14-Click-the-Logout-Button.cy.js                                              (14 of 14)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T02:10:07.871Z",
+    "end": "2025-03-10T02:10:13.601Z",
+    "duration": 5730
+  },
+  "tests": [
+    {
+      "title": "Verify that users can log out of their account.",
+      "fullTitle": "14 - Click the Logout Button Verify that users can log out of their account.",
+      "duration": 5714,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Você saiu da sua conta.' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Você saiu da sua conta.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js:10:43)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Você saiu da sua conta.' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/14-Click-the-Logout-Button.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+            "line": 10,
+            "column": 43,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 10,
+          "column": 44,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+          "frame": "   8 |     cy.contains(\"SAIR\").click();\n   9 |\n> 10 |     cy.contains(\"Você saiu da sua conta.\").should(\"be.visible\");\n     |                                            ^\n  11 |     cy.contains(\"ENTRE OU CADASTRE-SE\").should(\"be.visible\");\n  12 |   });\n  13 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify that users can log out of their account.",
+      "fullTitle": "14 - Click the Logout Button Verify that users can log out of their account.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Você saiu da sua conta.' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Você saiu da sua conta.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js:10:43)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Você saiu da sua conta.' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Help%20Pages%20and%20Error%20Prevention/14-Click-the-Logout-Button.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+            "relativeFile": "cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+            "line": 10,
+            "column": 43,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 10,
+          "column": 44,
+          "originalFile": "cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Help Pages and Error Prevention/14-Click-the-Logout-Button.cy.js",
+          "frame": "   8 |     cy.contains(\"SAIR\").click();\n   9 |\n> 10 |     cy.contains(\"Você saiu da sua conta.\").should(\"be.visible\");\n     |                                            ^\n  11 |     cy.contains(\"ENTRE OU CADASTRE-SE\").should(\"be.visible\");\n  12 |   });\n  13 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     14-Click-the-Logout-Button.cy.js                                                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/14-Cli     (1280x720)
+     ck-the-Logout-Button.cy.js/14 - Click the Logout Button -- Verify that users can               
+      log out of their account (failed).png                                                         
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  01-Help-button.cy.js                     926ms        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  02-Help-Page-Sections.cy.js              00:04        1        -        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  03-Add-OER-Without-an-Account.cy.js      00:03        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  04-Add-OER-With-Account.cy.js            00:03        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  05-Add-OER-and-Encounter-Internal-E      00:03        1        1        -        -        - │
+  │    rror.cy.js                                                                                  │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  06-Edit-a-Posted-OER.cy.js               00:04        2        2        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  07-Delete-a-Posted-OER.cy.js             00:06        1        -        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  08-Add-a-Like-to-an-OER-Error-Notif      00:07        1        -        1        -        - │
+  │    ication.cy.js                                                                               │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  09-Add-Like-OER-Without-Account.cy.      00:04        1        1        -        -        - │
+  │    js                                                                                          │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  10-Add-Comment-OER-Error-Notificati      00:04        1        1        -        -        - │
+  │    on.cy.js                                                                                    │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  11-Remove-Comment-OER.cy.js              00:08        1        -        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  12-Send-Issue-OER.cy.js                  00:15        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  13-Make-Change-on-Your-Profile.cy.j      00:07        2        2        -        -        - │
+  │    s                                                                                           │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  14-Click-the-Logout-Button.cy.js         00:05        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  5 of 14 failed (36%)                     01:20       18       13        5        -        -  
+

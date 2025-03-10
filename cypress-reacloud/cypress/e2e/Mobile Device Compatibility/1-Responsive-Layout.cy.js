@@ -208,7 +208,7 @@ describe("1 - Responsive Layout", () => {
     });
 
     it(`ReaView page should display correctly on ${viewport.width}x${viewport.height}`, () => {
-      cy.visit("/ReaView/44");
+      cy.visit("/ReaView/76");
 
       cy.wait(1000);
 

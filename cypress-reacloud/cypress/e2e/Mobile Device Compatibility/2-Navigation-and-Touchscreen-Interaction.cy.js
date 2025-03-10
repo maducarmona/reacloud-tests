@@ -80,7 +80,7 @@ describe("1 - Responsive Layout", () => {
 
     // Fill in the required fields in the OER form
     const oerMetadata = {
-      title: "Sample OER Title",
+      title: "OER for testing 1",
       contributor: "John Doe",
       type: "Visual ou Multimídia",
       source: "https://example.com",
@@ -163,7 +163,7 @@ describe("1 - Responsive Layout", () => {
     cy.visit("/editpostedreas");
 
     // Locate the container that holds both the title and the "EDITAR" button
-    cy.contains("h1", "Sample OER Title")
+    cy.contains("h1", "OER for testing 1")
       .eq(0)
       .parent()
       .parent()
@@ -175,7 +175,7 @@ describe("1 - Responsive Layout", () => {
     cy.contains(/Você deseja remover o recurso/).should("be.visible");
     cy.contains("button", "CANCELAR").click();
 
-    cy.contains("h1", "Sample OER Title")
+    cy.contains("h1", "OER for testing 3")
       .eq(0)
       .parent()
       .parent()
@@ -188,7 +188,7 @@ describe("1 - Responsive Layout", () => {
       });
 
     // Locate the container that holds both the title and the "EDITAR" button
-    cy.contains("h1", "Sample OER Title")
+    cy.contains("h1", "OER for testing 2")
       .eq(0)
       .parent()
       .parent()
@@ -238,7 +238,7 @@ describe("1 - Responsive Layout", () => {
   it(`ReaView page`, () => {
     cy.login();
     cy.viewport(viewport.width, viewport.height);
-    cy.visit("/ReaView/44");
+    cy.visit("/ReaView/77");
 
     cy.wait(1000);
 

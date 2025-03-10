@@ -1,0 +1,61 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Chrome 134                                                                     │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          1 found (2-No-Reminder-About-the-Extension-if-Installed.cy.js)                 │
+  │ Searched:       cypress/e2e/Resource Collection Plugin/2-No-Reminder-About-the-Extension-if-In │
+  │                 stalled.cy.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  2-No-Reminder-About-the-Extension-if-Installed.cy.js                            (1 of 1)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T01:08:33.426Z",
+    "end": "2025-03-10T01:08:34.026Z",
+    "duration": 600
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      1                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     2-No-Reminder-About-the-Extension-if-Installed.cy.js                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  2-No-Reminder-About-the-Extension-i      597ms        1        -        -        -        1 │
+  │    f-Installed.cy.js                                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        597ms        1        -        -        -        1  
+

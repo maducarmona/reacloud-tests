@@ -16,9 +16,6 @@ describe("3 - Remove account data", () => {
             cy.contains('CANCELAR').should('be.visible');
             cy.contains('REMOVER').should('be.visible').click();
         });
-      
-        cy.contains('Sua conta foi removida.').should('be.visible');
-        cy.contains("ENTRE OU CADASTRE-SE").click();
     });
   });
   

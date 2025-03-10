@@ -14,6 +14,12 @@ describe('11 - Remove a Comment to an OER', () => {
 
         cy.get('div[class*="contentContainer"]').eq(0).click();
 
+        cy.get('textarea#commentTextArea').type('This is a test comment!');
+
+        cy.get('button[class*="submitButton"]').click();
+
+        cy.get('div[class*="commentList"]').should('exist').should('be.visible').should('have.length.gt', 0);
+
         cy.get('div[class*="commentList"]').should('contain', 'This is a test comment!');
 
         cy.get('div[class*="commentList"]').contains('button', 'Excluir').should('exist').should('be.visible').click();

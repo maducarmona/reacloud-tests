@@ -1,0 +1,405 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          6 found (1-Search-OER-by-Title.cy.js, 2-Search-OER-by-Knowledge-Area.cy.js, 3- │
+  │                 Search-OER-by-Format.cy.js, 4-Combination-of-Search-and-Filters.cy.js, 5-No-Fi │
+  │                 lter-or-Search.cy.js, 6-Search-with-No-Results.cy.js)                          │
+  │ Searched:       cypress/e2e/Searching-and-Filtering-OERs/**/*.cy.js                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  1-Search-OER-by-Title.cy.js                                                     (1 of 6)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:48:03.472Z",
+    "end": "2025-03-10T00:48:04.899Z",
+    "duration": 1427
+  },
+  "tests": [
+    {
+      "title": "Verify that users can search for OERs by entering their title in the search bar",
+      "fullTitle": "Search OER by Title Verify that users can search for OERs by entering their title in the search bar",
+      "duration": 1394,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can search for OERs by entering their title in the search bar",
+      "fullTitle": "Search OER by Title Verify that users can search for OERs by entering their title in the search bar",
+      "duration": 1394,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     1-Search-OER-by-Title.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  2-Search-OER-by-Knowledge-Area.cy.js                                            (2 of 6)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:48:05.879Z",
+    "end": "2025-03-10T00:48:10.142Z",
+    "duration": 4263
+  },
+  "tests": [
+    {
+      "title": "Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "duration": 4227,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on BNCC (Base Nacional Comum Curricular) knowledge areas.",
+      "duration": 4227,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     2-Search-OER-by-Knowledge-Area.cy.js                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  3-Search-OER-by-Format.cy.js                                                    (3 of 6)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:48:11.117Z",
+    "end": "2025-03-10T00:48:15.360Z",
+    "duration": 4243
+  },
+  "tests": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Format Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 4205,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Format Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 4205,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     3-Search-OER-by-Format.cy.js                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  4-Combination-of-Search-and-Filters.cy.js                                       (4 of 6)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:48:16.328Z",
+    "end": "2025-03-10T00:48:17.922Z",
+    "duration": 1594
+  },
+  "tests": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 1557,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "fullTitle": "Search OER by Knowledge Area Verify that users can filter OERs based on material formats compatible with the BNCC (Base Nacional Comum Curricular) guidelines.",
+      "duration": 1557,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     4-Combination-of-Search-and-Filters.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  5-No-Filter-or-Search.cy.js                                                     (5 of 6)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:48:18.884Z",
+    "end": "2025-03-10T00:48:19.694Z",
+    "duration": 810
+  },
+  "tests": [
+    {
+      "title": "Verify that users can see all listed OERs when no filter is applied.",
+      "fullTitle": "No Filter or Search Verify that users can see all listed OERs when no filter is applied.",
+      "duration": 760,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify that users can see all listed OERs when no filter is applied.",
+      "fullTitle": "No Filter or Search Verify that users can see all listed OERs when no filter is applied.",
+      "duration": 760,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     5-No-Filter-or-Search.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  6-Search-with-No-Results.cy.js                                                  (6 of 6)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T00:48:20.801Z",
+    "end": "2025-03-10T00:48:25.867Z",
+    "duration": 5066
+  },
+  "tests": [
+    {
+      "title": "Verify the system’s behavior when a search query returns no results.",
+      "fullTitle": "Search with No Results Verify the system’s behavior when a search query returns no results.",
+      "duration": 5052,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js:10:49)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "relativeFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "line": 10,
+            "column": 49,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 10,
+          "column": 50,
+          "originalFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "frame": "   8 |         cy.get('div[class*=\"contentContainer\"]').should('not.exist');\n   9 |\n> 10 |         cy.contains('Nenhum recurso encontrado').should('exist').should('be.visible');\n     |                                                  ^\n  11 |     });\n  12 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Verify the system’s behavior when a search query returns no results.",
+      "fullTitle": "Search with No Results Verify the system’s behavior when a search query returns no results.",
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.\n    at Context.eval (webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js:10:49)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Nenhum recurso encontrado' but never did.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:5173/__cypress/tests?p=cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "originalFile": "webpack:///./cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "relativeFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+            "line": 10,
+            "column": 49,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 10,
+          "column": 50,
+          "originalFile": "cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "relativeFile": "cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "absoluteFile": "/home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/e2e/Searching-and-Filtering-OERs/6-Search-with-No-Results.cy.js",
+          "frame": "   8 |         cy.get('div[class*=\"contentContainer\"]').should('not.exist');\n   9 |\n> 10 |         cy.contains('Nenhum recurso encontrado').should('exist').should('be.visible');\n     |                                                  ^\n  11 |     });\n  12 | });",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": []
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     6-Search-with-No-Results.cy.js                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /home/maria/Documents/reacloud-tests/cypress-reacloud/cypress/screenshots/6-Sear     (1280x720)
+     ch-with-No-Results.cy.js/Search with No Results -- Verify the system’s behavior                
+     when a search query returns no results (failed).png                                            
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  1-Search-OER-by-Title.cy.js              00:01        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  2-Search-OER-by-Knowledge-Area.cy.j      00:04        1        1        -        -        - │
+  │    s                                                                                           │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  3-Search-OER-by-Format.cy.js             00:04        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  4-Combination-of-Search-and-Filters      00:01        1        1        -        -        - │
+  │    .cy.js                                                                                      │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  5-No-Filter-or-Search.cy.js              812ms        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  6-Search-with-No-Results.cy.js           00:05        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 6 failed (17%)                      00:17        6        5        1        -        -  
+

@@ -1,0 +1,288 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          5 found (1-Verify-OER-Submission-with-Metadata.cy.js, 2-Verify-OER-Submission- │
+  │                 Blocked-for-Unauthenticated-User.cy.js, 3-Edit-a-posted-OER.cy.js, 4-Delete-a- │
+  │                 posted-OER.cy.js, 5-Verify-Required-Fields-in-OER-Submission-Form.cy.js)       │
+  │ Searched:       cypress/e2e/Indexing-of-OERs/**/*.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  1-Verify-OER-Submission-with-Metadata.cy.js                                     (1 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:37:52.171Z",
+    "end": "2025-03-10T00:37:59.479Z",
+    "duration": 7308
+  },
+  "tests": [
+    {
+      "title": "should submit OER through the Home Page",
+      "fullTitle": "OER Submission with Metadata should submit OER through the Home Page",
+      "duration": 7241,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should submit OER through the Home Page",
+      "fullTitle": "OER Submission with Metadata should submit OER through the Home Page",
+      "duration": 7241,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     7 seconds                                                                        │
+  │ Spec Ran:     1-Verify-OER-Submission-with-Metadata.cy.js                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  2-Verify-OER-Submission-Blocked-for-Unauthenticated-User.cy.js                  (2 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:38:00.481Z",
+    "end": "2025-03-10T00:38:06.796Z",
+    "duration": 6315
+  },
+  "tests": [
+    {
+      "title": "should not allow unauthenticated user to submit OER",
+      "fullTitle": "Verify OER Submission Blocked for Unauthenticated User should not allow unauthenticated user to submit OER",
+      "duration": 6280,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should not allow unauthenticated user to submit OER",
+      "fullTitle": "Verify OER Submission Blocked for Unauthenticated User should not allow unauthenticated user to submit OER",
+      "duration": 6280,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     6 seconds                                                                        │
+  │ Spec Ran:     2-Verify-OER-Submission-Blocked-for-Unauthenticated-User.cy.js                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  3-Edit-a-posted-OER.cy.js                                                       (3 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:38:07.822Z",
+    "end": "2025-03-10T00:38:13.203Z",
+    "duration": 5381
+  },
+  "tests": [
+    {
+      "title": "should allow the user to edit a posted OER",
+      "fullTitle": "Edit a posted OER should allow the user to edit a posted OER",
+      "duration": 5317,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should allow the user to edit a posted OER",
+      "fullTitle": "Edit a posted OER should allow the user to edit a posted OER",
+      "duration": 5317,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     5 seconds                                                                        │
+  │ Spec Ran:     3-Edit-a-posted-OER.cy.js                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  4-Delete-a-posted-OER.cy.js                                                     (4 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:38:14.170Z",
+    "end": "2025-03-10T00:38:16.386Z",
+    "duration": 2216
+  },
+  "tests": [
+    {
+      "title": "users can deleted posted OERs.",
+      "fullTitle": "4 - Delete a posted OER users can deleted posted OERs.",
+      "duration": 2146,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "users can deleted posted OERs.",
+      "fullTitle": "4 - Delete a posted OER users can deleted posted OERs.",
+      "duration": 2146,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 seconds                                                                        │
+  │ Spec Ran:     4-Delete-a-posted-OER.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  5-Verify-Required-Fields-in-OER-Submission-Form.cy.js                           (5 of 5)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T00:38:17.382Z",
+    "end": "2025-03-10T00:38:19.938Z",
+    "duration": 2556
+  },
+  "tests": [
+    {
+      "title": "should enforce required fields before allowing submission",
+      "fullTitle": "5 - Verify Required Fields in OER Submission Form should enforce required fields before allowing submission",
+      "duration": 2522,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should enforce required fields before allowing submission",
+      "fullTitle": "5 - Verify Required Fields in OER Submission Form should enforce required fields before allowing submission",
+      "duration": 2522,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 seconds                                                                        │
+  │ Spec Ran:     5-Verify-Required-Fields-in-OER-Submission-Form.cy.js                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  1-Verify-OER-Submission-with-Metada      00:07        1        1        -        -        - │
+  │    ta.cy.js                                                                                    │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  2-Verify-OER-Submission-Blocked-for      00:06        1        1        -        -        - │
+  │    -Unauthenticated-User.cy.js                                                                 │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  3-Edit-a-posted-OER.cy.js                00:05        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  4-Delete-a-posted-OER.cy.js              00:02        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  5-Verify-Required-Fields-in-OER-Sub      00:02        1        1        -        -        - │
+  │    mission-Form.cy.js                                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:23        5        5        -        -        -  
+

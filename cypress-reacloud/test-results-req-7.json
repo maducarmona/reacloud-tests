@@ -1,0 +1,731 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.1.0                                                                         │
+  │ Browser:        Electron 130 (headless)                                                        │
+  │ Node Version:   v23.9.0 (/usr/bin/node)                                                        │
+  │ Specs:          2 found (1-Responsive-Layout.cy.js, 2-Navigation-and-Touchscreen-Interaction.c │
+  │                 y.js)                                                                          │
+  │ Searched:       cypress/e2e/Mobile Device Compatibility/**/*.cy.js                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  1-Responsive-Layout.cy.js                                                       (1 of 2)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 36,
+    "passes": 36,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:49:14.473Z",
+    "end": "2025-03-10T02:49:36.201Z",
+    "duration": 21728
+  },
+  "tests": [
+    {
+      "title": "home page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 320x480",
+      "duration": 915,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 320x480",
+      "duration": 414,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 320x480",
+      "duration": 369,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 320x480",
+      "duration": 402,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 320x480",
+      "duration": 357,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 320x480",
+      "duration": 371,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 320x480",
+      "duration": 1371,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 320x480",
+      "duration": 1329,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 320x480",
+      "duration": 381,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "home page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 375x667",
+      "duration": 424,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 375x667",
+      "duration": 333,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 375x667",
+      "duration": 329,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 375x667",
+      "duration": 351,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 375x667",
+      "duration": 327,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 375x667",
+      "duration": 351,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 375x667",
+      "duration": 1316,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 375x667",
+      "duration": 1325,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 375x667",
+      "duration": 308,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "home page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 768x1024",
+      "duration": 455,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 768x1024",
+      "duration": 336,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 768x1024",
+      "duration": 315,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 768x1024",
+      "duration": 356,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 768x1024",
+      "duration": 312,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 768x1024",
+      "duration": 332,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 768x1024",
+      "duration": 1312,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 768x1024",
+      "duration": 1324,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 768x1024",
+      "duration": 327,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "home page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 1440x900",
+      "duration": 435,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 1440x900",
+      "duration": 384,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 1440x900",
+      "duration": 313,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 1440x900",
+      "duration": 314,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 1440x900",
+      "duration": 306,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 1440x900",
+      "duration": 350,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 1440x900",
+      "duration": 1304,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 1440x900",
+      "duration": 1296,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 1440x900",
+      "duration": 332,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "home page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 320x480",
+      "duration": 915,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 320x480",
+      "duration": 414,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 320x480",
+      "duration": 369,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 320x480",
+      "duration": 402,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 320x480",
+      "duration": 357,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 320x480",
+      "duration": 371,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 320x480",
+      "duration": 1371,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 320x480",
+      "duration": 1329,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 320x480",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 320x480",
+      "duration": 381,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "home page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 375x667",
+      "duration": 424,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 375x667",
+      "duration": 333,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 375x667",
+      "duration": 329,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 375x667",
+      "duration": 351,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 375x667",
+      "duration": 327,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 375x667",
+      "duration": 351,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 375x667",
+      "duration": 1316,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 375x667",
+      "duration": 1325,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 375x667",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 375x667",
+      "duration": 308,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "home page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 768x1024",
+      "duration": 455,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 768x1024",
+      "duration": 336,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 768x1024",
+      "duration": 315,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 768x1024",
+      "duration": 356,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 768x1024",
+      "duration": 312,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 768x1024",
+      "duration": 332,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 768x1024",
+      "duration": 1312,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 768x1024",
+      "duration": 1324,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 768x1024",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 768x1024",
+      "duration": 327,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "home page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout home page should display correctly on 1440x900",
+      "duration": 435,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout addrea page should display correctly on 1440x900",
+      "duration": 384,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout pluginreas page should display correctly on 1440x900",
+      "duration": 313,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout reaeditadd page should display correctly on 1440x900",
+      "duration": 314,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout postedreaedit page should display correctly on 1440x900",
+      "duration": 306,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout editpostedreas page should display correctly on 1440x900",
+      "duration": 350,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout ReaView page should display correctly on 1440x900",
+      "duration": 1304,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout profile page should display correctly on 1440x900",
+      "duration": 1296,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page should display correctly on 1440x900",
+      "fullTitle": "1 - Responsive Layout help page should display correctly on 1440x900",
+      "duration": 332,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        36                                                                               │
+  │ Passing:      36                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     21 seconds                                                                       │
+  │ Spec Ran:     1-Responsive-Layout.cy.js                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  2-Navigation-and-Touchscreen-Interaction.cy.js                                  (2 of 2)
+{
+  "stats": {
+    "suites": 1,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-10T02:49:37.224Z",
+    "end": "2025-03-10T02:50:07.101Z",
+    "duration": 29877
+  },
+  "tests": [
+    {
+      "title": "home page should buttons",
+      "fullTitle": "1 - Responsive Layout home page should buttons",
+      "duration": 1640,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page",
+      "fullTitle": "1 - Responsive Layout addrea page",
+      "duration": 655,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page",
+      "fullTitle": "1 - Responsive Layout pluginreas page",
+      "duration": 401,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page",
+      "fullTitle": "1 - Responsive Layout reaeditadd page",
+      "duration": 6201,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page",
+      "fullTitle": "1 - Responsive Layout postedreaedit page",
+      "duration": 1949,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page",
+      "fullTitle": "1 - Responsive Layout editpostedreas page",
+      "duration": 3394,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page",
+      "fullTitle": "1 - Responsive Layout ReaView page",
+      "duration": 7231,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page",
+      "fullTitle": "1 - Responsive Layout profile page",
+      "duration": 7606,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page",
+      "fullTitle": "1 - Responsive Layout help page",
+      "duration": 483,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "home page should buttons",
+      "fullTitle": "1 - Responsive Layout home page should buttons",
+      "duration": 1640,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "addrea page",
+      "fullTitle": "1 - Responsive Layout addrea page",
+      "duration": 655,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pluginreas page",
+      "fullTitle": "1 - Responsive Layout pluginreas page",
+      "duration": 401,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "reaeditadd page",
+      "fullTitle": "1 - Responsive Layout reaeditadd page",
+      "duration": 6201,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "postedreaedit page",
+      "fullTitle": "1 - Responsive Layout postedreaedit page",
+      "duration": 1949,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "editpostedreas page",
+      "fullTitle": "1 - Responsive Layout editpostedreas page",
+      "duration": 3394,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ReaView page",
+      "fullTitle": "1 - Responsive Layout ReaView page",
+      "duration": 7231,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "profile page",
+      "fullTitle": "1 - Responsive Layout profile page",
+      "duration": 7606,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "help page",
+      "fullTitle": "1 - Responsive Layout help page",
+      "duration": 483,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        9                                                                                │
+  │ Passing:      9                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     29 seconds                                                                       │
+  │ Spec Ran:     2-Navigation-and-Touchscreen-Interaction.cy.js                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  1-Responsive-Layout.cy.js                00:21       36       36        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  2-Navigation-and-Touchscreen-Intera      00:29        9        9        -        -        - │
+  │    ction.cy.js                                                                                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:51       45       45        -        -        -  
+

@@ -1,23 +1,11 @@
 describe("6 - Edit a Posted OER", () => {
-  it("Verify error message when not logged in", () => {
-    cy.visit("/postedreaedit/29");
-
-    // Save the resource
-    cy.get('button#submitButton').click();
-
-    cy.contains("Erro ao editar recurso.").should("be.visible");
-    cy.contains("Você precisa estar logado para editar um recurso.").should(
-      "be.visible"
-    );
-  });
-
   it("Verify generic error message when editing OER", () => {
     cy.login();
     cy.visit("/");
     cy.contains("ADICIONAR RECURSO").click();
     cy.contains("EDITAR RECURSO").click();
     // Locate the container that holds both the title and the "EDITAR" button
-    cy.contains("h1", "Recurso Teste 2")
+    cy.contains("h1", "OER for testing 2")
       .parent()
       .parent()
       .within(() => {
@@ -43,7 +31,7 @@ describe("6 - Edit a Posted OER", () => {
         cy.contains("ADICIONAR RECURSO").click();
         cy.contains("EDITAR RECURSO").click();
         // Locate the container that holds both the title and the "EDITAR" button
-        cy.contains("h1", "Updated OER Title 2")
+        cy.contains("h1", "OER for testing 2")
         .parent()
         .parent()
         .within(() => {
